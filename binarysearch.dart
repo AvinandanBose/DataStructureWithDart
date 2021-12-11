@@ -15,9 +15,9 @@ binarySearch(List<int> arr, int input, int beg, int end) {
     if (input == arr[mid]) {
       print('your item is at index: ${mid}');
     } else if (input > arr[mid]) {
-      binarySearch(arr, input, mid + 1, end); //recursive call of funtion
+      binarySearch(arr, input, mid + 1, end); //recursive call of function
     } else if (input < arr[mid]) {
-      binarySearch(arr, input, beg, mid - 1); //recursive call of funtion
+      binarySearch(arr, input, beg, mid - 1); //recursive call of function
     } else {
       print("Not found");
     }
